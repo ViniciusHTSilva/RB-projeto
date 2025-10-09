@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detalhes do Produto</title>
+
+  <!-- Bootstrap e estilos -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/CSS/produto-catalogo.css">
+  <link rel="stylesheet" href="/CSS/chatbosx.css">
+</head>
+<body>
+  <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html">
+            <img src="/images/RB.png" alt="Logo RB" class="logo" />
+          </a>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/produtos2.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/projetos.html">Projetos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+  <!-- Conteúdo do Produto -->
+   
+  <div class="container">
+
+
+    <div id="produto-container" class="row">
+      <div class="col-md-6">
+            <a href="/pages/produtos2.html" class="btn btn-secondary mb-4">← Voltar aos Produtos</a>
+            <div class="carousel">
+              <div class="carousel-track">
+                <img id="produto-imagem" alt="Imagem 1">
+                <img id="produto-imagem1" alt="Imagem 1">
+                <img id="produto-imagem2" alt="Imagem 1">
+                <img id="produto-imagem3" alt="Imagem 1">
+                <img id="produto-imagem4" alt="Imagem 1">
+                <img id="produto-imagem5" alt="Imagem 1">
+
+
+              </div>
+              
+              <button class="carousel-button prev">&#10094;</button>
+              <button class="carousel-button next">&#10095;</button>
+              
+              <div class="carousel-indicators">
+                <div class="carousel-indicator active"></div>
+                <div class="carousel-indicator"></div>
+                <div class="carousel-indicator"></div>
+                <div class="carousel-indicator"></div>
+              </div>
+            </div>
+
+              <!-- Dots -->
+              <div class="navigation-manual">
+                <div class="manual-btn"></div>
+                <div class="manual-btn"></div>
+                <div class="manual-btn"></div>
+                <div class="manual-btn"></div>
+              </div>
+            </div>
+            <!--Carrosel de imagens -->
+
+
+
+      </div>
+
+
+      <div class="produto">
+        <h1 id="produto-nome" class="mb-3"></h1>
+        <p id="produto-descricao" class="lead"></p>
+        <p><span class="fw-bold">Categoria:</span> <span id="produto-categoria"></span></p>
+        <p id="produto-exp" style="white-space: pre-wrap;"></p>
+        <p id="produto-espessuras"></p>
+
+          <!-- Botão com atributo data-nome -->
+          <button class="btn btn-primary" 
+                  onclick="enviarWhatsapp()">
+            <i class="fa-solid fa-cart-shopping me-2"></i>Solicitar Orçamento
+          </button>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Rodapé opcional -->
+
+
+  <!-- Scripts -->
+  <script src="/js/produtos.js"></script>
+  <script src="/js/ChatBox.js"></script>
+  <script>
+const urlParams = new URLSearchParams(window.location.search);
+const produtoId = urlParams.get("id");
+const produto = produtos.find(p => p.id === produtoId);
+
+if (produto) {
+  document.getElementById("produto-nome").textContent = produto.nome;
+  document.getElementById("produto-descricao").textContent = produto.descricao;
+  document.getElementById("produto-categoria").textContent = produto.categoria;
+  document.getElementById("produto-espessuras").textContent = produto.espessuras;
+  document.getElementById("produto-exp").textContent = produto.exp;
+
+  // monta imagens dinamicamente
+  const track = document.querySelector(".carousel-track");
+  track.innerHTML = ""; // limpa imagens fixas
+
+  (produto.imagem || []).forEach(src => {
+    const img = document.createElement("img");
+    img.src = src;
+    img.alt = produto.nome;
+    track.appendChild(img);
+  });
+} else {
+  document.getElementById("produto-container").innerHTML = `
+    <div class="col-12 text-center">
+      <h2>Produto não encontrado.</h2>
+      <p>Verifique o link ou volte para a <a href="/pages/produtos.html">página de produtos</a>.</p>
+    </div>
+  `;
+}
+
+
+
+
+      function enviarWhatsapp() {
+        const numero = "5511950840228"; // sem o "+"
+        
+        // Se produto existir, usa o nome; senão, usa mensagem genérica
+        let mensagem = "Olá, gostaria de solicitar um orçamento.";
+        if (typeof produto !== "undefined" && produto.nome) {
+          mensagem = `Olá, gostaria de solicitar um orçamento para o produto: ${produto.nome}`;
+        }
+
+        const url = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensagem);
+        console.log("Abrindo link:", url); // debug no console
+        window.open(url, "_blank");
+      }
+
+
+
+
+
+
+
+          const track = document.querySelector('.carousel-track');
+    const slides = Array.from(track.children);
+    const nextButton = document.querySelector('.carousel-button.next');
+    const prevButton = document.querySelector('.carousel-button.prev');
+    const indicators = document.querySelectorAll('.carousel-indicator');
+
+    let currentIndex = 0;
+
+    function updateSlide(index) {
+      track.style.transform = `translateX(-${index * 100}%)`;
+      indicators.forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
+      });
+    }
+
+    nextButton.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      updateSlide(currentIndex);
+    });
+
+    prevButton.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      updateSlide(currentIndex);
+    });
+
+    indicators.forEach((dot, i) => {
+      dot.addEventListener('click', () => {
+        currentIndex = i;
+        updateSlide(currentIndex);
+      });
+    });
+
+
+
+
+
+
+
+
+  </script>
+
+
+</body>
+</html>
