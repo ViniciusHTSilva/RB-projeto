@@ -32,7 +32,8 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
   {
     id: "5",
     nome: "Produtos em Acrílico",
-    imagem: ["/images/produtos_em_acrilico/prod1.jpg",
+    imagem: [
+      "../images/produtos_em_acrilico/prod1.jpg",
       "../images/produtos_em_acrilico/prod2.jpg",
       "../images/produtos_em_acrilico/prod3.jpg",
       "../images/produtos_em_acrilico/prod4.jpg",
