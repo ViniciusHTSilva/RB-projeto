@@ -6,12 +6,12 @@ const produtos = [
     id: "2",
     nome:  "Letra Acrílica",
     imagem: [
-      "/images/Letra/Letras-1.jpeg",
-      "/images/Letra/Letras-2.jpeg",
-      "/images/Letra/Letras-3.jpeg",
-      "/images/Letra/Letras-4.jpeg",
-      "/images/Letra/Letras-5.jpeg",
-      "/images/Letra/Letras-6.jpeg",
+      "images/Letra/Letras-1.jpeg",
+      "images/Letra/Letras-2.jpeg",
+      "images/Letra/Letras-3.jpeg",
+      "images/Letra/Letras-4.jpeg",
+      "images/Letra/Letras-5.jpeg",
+      "images/Letra/Letras-6.jpeg",
     ],
 
     categoria: "Acrílico",
@@ -33,11 +33,11 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
     id: "5",
     nome: "Produtos em Acrílico",
     imagem: ["/images/produtos_em_acrilico/prod1.jpg",
-      "/images/produtos_em_acrilico/prod2.jpg",
-      "/images/produtos_em_acrilico/prod3.jpg",
-      "/images/produtos_em_acrilico/prod4.jpg",
-      "/images/produtos_em_acrilico/prod5.jpg",
-      "/images/produtos_em_acrilico/prod6.jpg",
+      "images/produtos_em_acrilico/prod2.jpg",
+      "images/produtos_em_acrilico/prod3.jpg",
+      "images/produtos_em_acrilico/prod4.jpg",
+      "images/produtos_em_acrilico/prod5.jpg",
+      "images/produtos_em_acrilico/prod6.jpg",
     ],
     categoria: "Acrílico",
 
@@ -60,10 +60,10 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
 
     imagem:[ 
 
-     "/images/toldo/toldo-3.jpg",
-     "/images/toldo/toldo-4.jpg",
-     "/images/toldo/toldo-5.jpg",
-     "/images/toldo/toldo-6.jpg",
+     "images/toldo/toldo-3.jpg",
+     "images/toldo/toldo-4.jpg",
+     "images/toldo/toldo-5.jpg",
+     "images/toldo/toldo-6.jpg",
     ],
 
     exp: `
@@ -81,14 +81,14 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
     categoria: "Coberturas Policarbonato",
 
     imagem: [ 
-      "/images//cobertura/Cobertura-7.jpeg",
-      "/images//cobertura/Cobertura-8.jpeg",
-      "/images//cobertura/Cobertura-1.jpg",
-      "/images//cobertura/Cobertura-2.jpg",
-      "/images//cobertura/Cobertura-3.jpg",
-      "/images//cobertura/Cobertura-4.jpg",
-      "/images//cobertura/Cobertura-5.jpg",
-      "/images//cobertura/Cobertura-6.jpg",
+      "images//cobertura/Cobertura-7.jpeg",
+      "images//cobertura/Cobertura-8.jpeg",
+      "images//cobertura/Cobertura-1.jpg",
+      "images//cobertura/Cobertura-2.jpg",
+      "images//cobertura/Cobertura-3.jpg",
+      "images//cobertura/Cobertura-4.jpg",
+      "images//cobertura/Cobertura-5.jpg",
+      "images//cobertura/Cobertura-6.jpg",
       ],
 
     exp: `
@@ -107,9 +107,9 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
     categoria: "Corte",
 
     imagem: [
-      "/images//corte/laser-1.jpg",
-      "/images//corte/laser-2.jpeg",
-      "/images//corte/laser-3.jpg"
+      "images//corte/laser-1.jpg",
+      "images//corte/laser-2.jpeg",
+      "images//corte/laser-3.jpg"
 
 
     ],
@@ -131,9 +131,9 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
     categoria: "Corte",
 
     imagem: [
-      "/images//corterouter/corte-router-1.jpg",
-      "/images//corterouter/corte-router-2.jpg",
-      "/images//corterouter/corte-router-3.jpg"
+      "images//corterouter/corte-router-1.jpg",
+      "images//corterouter/corte-router-2.jpg",
+      "images//corterouter/corte-router-3.jpg"
 
 
     ],
@@ -155,10 +155,10 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
     categoria: "Toldo",
 
     imagem: [
-      "/images/Toldo_cortina/cortina-1.jpg",
-      "/images/Toldo_cortina/cortina-2.jpg",
-      "/images/Toldo_cortina/cortina-3.jpg",
-      "/images/Toldo_cortina/cortina-4.jpg"
+      "images/Toldo_cortina/cortina-1.jpg",
+      "images/Toldo_cortina/cortina-2.jpg",
+      "images/Toldo_cortina/cortina-3.jpg",
+      "images/Toldo_cortina/cortina-4.jpg"
 
 
 
@@ -179,12 +179,12 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
     categoria: "Fachada",
 
     imagem: [
-      "/images/frontlight/frontlight-1.jpg",
-      "/images/frontlight/frontlight-2.jpg",
-      "/images/frontlight/frontlight-3.jpg",
-      "/images/frontlight/frontlight-4.jpg",
-      "/images/frontlight/frontlight-5.jpg",
-      "/images/frontlight/frontlight-6.jpg"
+      "images/frontlight/frontlight-1.jpg",
+      "images/frontlight/frontlight-2.jpg",
+      "images/frontlight/frontlight-3.jpg",
+      "images/frontlight/frontlight-4.jpg",
+      "images/frontlight/frontlight-5.jpg",
+      "images/frontlight/frontlight-6.jpg"
 
 
 
@@ -204,17 +204,17 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
     categoria: "Fachada",
 
     imagem: [
-      "/images/Backlight/Backlight.jpeg",
-      "/images/Backlight/Backlight-1.jpeg",
-      "/images/Backlight/Backlight-2.jpeg",
-      "/images/Backlight/Backlight-3.jpeg",
-      "/images/Backlight/Backlight-4.jpeg",
-      "/images/Backlight/Backlight-5.jpeg",
-      "/images/Backlight/Backlight-6.jpeg",
-      "/images/Backlight/Backlight-7.jpeg",
-      "/images/Backlight/Backlight-8.jpeg",
-      "/images/Backlight/Backlight-9.jpeg",
-      "/images/Backlight/Backlight-10.jpeg"
+      "images/Backlight/Backlight.jpeg",
+      "images/Backlight/Backlight-1.jpeg",
+      "images/Backlight/Backlight-2.jpeg",
+      "images/Backlight/Backlight-3.jpeg",
+      "images/Backlight/Backlight-4.jpeg",
+      "images/Backlight/Backlight-5.jpeg",
+      "images/Backlight/Backlight-6.jpeg",
+      "images/Backlight/Backlight-7.jpeg",
+      "images/Backlight/Backlight-8.jpeg",
+      "images/Backlight/Backlight-9.jpeg",
+      "images/Backlight/Backlight-10.jpeg"
 
 
     ],
@@ -234,15 +234,15 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
     categoria: "Fachada",
 
     imagem: [
-      "/images/Fachada_ACM/Fachada_ACM.jpg",
-      "/images/Fachada_ACM/Fachada_ACM1.jpeg",
-      "/images/Fachada_ACM/Fachada_ACM2.jpeg",
-      "/images/Fachada_ACM/Fachada_ACM3.jpg",
-      "/images/Fachada_ACM/Fachada_ACM4.jpg",
-      "/images/Fachada_ACM/Fachada_ACM5.jpg",
-      "/images/Fachada_ACM/Fachada_ACM6.jpg",
-      "/images/Fachada_ACM/Fachada_ACM7.jpg",
-      "/images/Fachada_ACM/Fachada_ACM8.jpg",
+      "images/Fachada_ACM/Fachada_ACM.jpg",
+      "images/Fachada_ACM/Fachada_ACM1.jpeg",
+      "images/Fachada_ACM/Fachada_ACM2.jpeg",
+      "images/Fachada_ACM/Fachada_ACM3.jpg",
+      "images/Fachada_ACM/Fachada_ACM4.jpg",
+      "images/Fachada_ACM/Fachada_ACM5.jpg",
+      "images/Fachada_ACM/Fachada_ACM6.jpg",
+      "images/Fachada_ACM/Fachada_ACM7.jpg",
+      "images/Fachada_ACM/Fachada_ACM8.jpg",
   
 
     ],
@@ -265,11 +265,11 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
 
     imagem: [
 
-      "/images/Totem/Totem-1.jpg",
-      "/images/Totem/Totem-2.jpg",
-      "/images/Totem/Totem-3.jpg",
-      "/images/Totem/Totem-4.jpg",
-      "/images/Totem/Totem-5.jpg",
+      "images/Totem/Totem-1.jpg",
+      "images/Totem/Totem-2.jpg",
+      "images/Totem/Totem-3.jpg",
+      "images/Totem/Totem-4.jpg",
+      "images/Totem/Totem-5.jpg",
 
 
   
@@ -294,14 +294,14 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
 
     imagem: [
 
-      "/images/Galvanizada/Galvanizada-1.jpg",
-      "/images/Galvanizada/Galvanizada-2.jpg",
-      "/images/Galvanizada/Galvanizada-3.jpg",
-      "/images/Galvanizada/Galvanizada-4.jpg",
-      "/images/Galvanizada/Galvanizada-5.jpg",
-      "/images/Galvanizada/Galvanizada-6.jpg",
-      "/images/Galvanizada/Galvanizada-7.jpg",
-      "/images/Galvanizada/Galvanizada-8.jpg"
+      "images/Galvanizada/Galvanizada-1.jpg",
+      "images/Galvanizada/Galvanizada-2.jpg",
+      "images/Galvanizada/Galvanizada-3.jpg",
+      "images/Galvanizada/Galvanizada-4.jpg",
+      "images/Galvanizada/Galvanizada-5.jpg",
+      "images/Galvanizada/Galvanizada-6.jpg",
+      "images/Galvanizada/Galvanizada-7.jpg",
+      "images/Galvanizada/Galvanizada-8.jpg"
 
 
     ],
@@ -321,13 +321,13 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
 
     imagem: [
 
-      "/images/LetraAcrilico/acrilico-1.jpg",
-      "/images/LetraAcrilico/acrilico-2.jpg",
-      "/images/LetraAcrilico/acrilico-3.jpg",
-      "/images/LetraAcrilico/acrilico-5.jpg",
-      "/images/LetraAcrilico/acrilico-6.jpg",
-      "/images/LetraAcrilico/acrilico-7.jpg",
-      "/images/LetraAcrilico/acrilico-8.jpg"
+      "images/LetraAcrilico/acrilico-1.jpg",
+      "images/LetraAcrilico/acrilico-2.jpg",
+      "images/LetraAcrilico/acrilico-3.jpg",
+      "images/LetraAcrilico/acrilico-5.jpg",
+      "images/LetraAcrilico/acrilico-6.jpg",
+      "images/LetraAcrilico/acrilico-7.jpg",
+      "images/LetraAcrilico/acrilico-8.jpg"
 
 
     ],
@@ -345,10 +345,10 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
 
     imagem: [
 
-      "/images/Latao/Latao-1.jpg",
-      "/images/Latao/Latao-2.jpg",
-      "/images/Latao/Latao-3.jpg",
-      "/images/Latao/Latao-4.jpg"
+      "images/Latao/Latao-1.jpg",
+      "images/Latao/Latao-2.jpg",
+      "images/Latao/Latao-3.jpg",
+      "images/Latao/Latao-4.jpg"
 
 
     ],
@@ -368,14 +368,14 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
 
     imagem: [
 
-      "/images/iluminada/iluminada-1.jpg",
-      "/images/iluminada/iluminada-2.jpg",
-      "/images/iluminada/iluminada-3.jpg",
-      "/images/iluminada/iluminada-4.jpg",
-      "/images/iluminada/iluminada-5.jpg",
-      "/images/iluminada/iluminada-6.jpg",
-      "/images/iluminada/iluminada-7.jpg",
-      "/images/iluminada/iluminada-8.jpg"
+      "images/iluminada/iluminada-1.jpg",
+      "images/iluminada/iluminada-2.jpg",
+      "images/iluminada/iluminada-3.jpg",
+      "images/iluminada/iluminada-4.jpg",
+      "images/iluminada/iluminada-5.jpg",
+      "images/iluminada/iluminada-6.jpg",
+      "images/iluminada/iluminada-7.jpg",
+      "images/iluminada/iluminada-8.jpg"
 
 
     ],
@@ -399,11 +399,11 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
 
     imagem: [
 
-      "/images/aço_polido/Polido.jpg",
-      "/images/aço_polido/Polido-1.jpg",
-      "/images/aço_polido/Polido-2.jpg",
-      "/images/aço_polido/Polido-3.jpg",
-      "/images/aço_polido/Polido_4.jpg"
+      "images/aço_polido/Polido.jpg",
+      "images/aço_polido/Polido-1.jpg",
+      "images/aço_polido/Polido-2.jpg",
+      "images/aço_polido/Polido-3.jpg",
+      "images/aço_polido/Polido_4.jpg"
 
 
 
@@ -422,11 +422,11 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
 
     imagem: [
 
-      "/images/inox_escovado/INOX.jpg",
-      "/images/inox_escovado/INOX-2.jpg",
-      "/images/inox_escovado/INOX-3.jpg",
-      "/images/inox_escovado/INOX-4.jpg",
-      "/images/inox_escovado/INOX-5.jpg"
+      "images/inox_escovado/INOX.jpg",
+      "images/inox_escovado/INOX-2.jpg",
+      "images/inox_escovado/INOX-3.jpg",
+      "images/inox_escovado/INOX-4.jpg",
+      "images/inox_escovado/INOX-5.jpg"
 
 
     ],
@@ -446,9 +446,9 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
     imagem: [
 
 
-      "/images/letra_PVC/PVC-2.jpg",
-      "/images/letra_PVC/PVC-3.jpg",
-      "/images/letra_PVC/PVC-1.png"
+      "images/letra_PVC/PVC-2.jpg",
+      "images/letra_PVC/PVC-3.jpg",
+      "images/letra_PVC/PVC-1.png"
 
     ],
 
@@ -469,11 +469,11 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
 
 
 
-      "/images/toldo_retratil/retratil-1.jpg",
-      "/images/toldo_retratil/retratil-2.png",
-      "/images/toldo_retratil/retratil-3.jpg",
-      "/images/toldo_retratil/retratil-4.jpg",
-      "/images/toldo_retratil/retratil-5.jpg"
+      "images/toldo_retratil/retratil-1.jpg",
+      "images/toldo_retratil/retratil-2.png",
+      "images/toldo_retratil/retratil-3.jpg",
+      "images/toldo_retratil/retratil-4.jpg",
+      "images/toldo_retratil/retratil-5.jpg"
 
     ],
 
@@ -494,12 +494,12 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
 
 
 
-      "/images/Sinalizacao/sinalizacao-interna-1.jpg",
-      "/images/Sinalizacao/sinalizacao-interna-2.jpg",
-      "/images/Sinalizacao/sinalizacao-interna-3.jpg",
-      "/images/Sinalizacao/sinalizacao-interna-4.jpg",
-      "/images/Sinalizacao/sinalizacao-interna-5.jpg",
-      "/images/Sinalizacao/sinalizacao-interna-6.jpg"
+      "images/Sinalizacao/sinalizacao-interna-1.jpg",
+      "images/Sinalizacao/sinalizacao-interna-2.jpg",
+      "images/Sinalizacao/sinalizacao-interna-3.jpg",
+      "images/Sinalizacao/sinalizacao-interna-4.jpg",
+      "images/Sinalizacao/sinalizacao-interna-5.jpg",
+      "images/Sinalizacao/sinalizacao-interna-6.jpg"
     ],
 
     exp: `
