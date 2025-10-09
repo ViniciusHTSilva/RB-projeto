@@ -107,7 +107,7 @@ a {
 ========================= */
 .hero {
   position: relative;
-  background-image: url(/images/teste.jpg);
+  background-image: url(images/teste.jpg);
   background-size: cover;       /* cobre toda a tela */
   background-repeat: no-repeat;
   background-position: center;
