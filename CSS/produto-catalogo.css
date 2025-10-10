@@ -98,20 +98,21 @@ body {
 
 .container{
   display: flex;
+  width: 100%;
 
 }
 .produto {
-
-  width: 700px; 
-  height: 600px;
-  background-color: #f8f9fa; /* fundo claro */
-  padding: 20px;
-  border-radius: 0 20px 20px 0;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-  margin-top: 65px;
-  margin-left: 0px;
+  width: 100vw;             /* ocupa 90% da largura do container */
+     /* nunca ultrapassa 700px */
+  height: auto;           /* altura se ajusta ao conteúdo */
+  aspect-ratio: 7/6;      /* mantém proporção semelhante ao original */
+  background-color: #f8f9fa;
+  padding: 2rem;          /* padding relativo à font-size */
+  border-radius: 0 2rem 2rem 0; /* bordas arredondadas relativas */
+  box-shadow: 0 0.3rem 1rem rgba(0,0,0,0.2); /* sombra proporcional */
+  margin-top: 4rem;       /* margem relativa */
+  margin-left: 0;
 }
-
 
 /* Ajuste de botões e textos */
 .produto h1 {
