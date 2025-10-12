@@ -90,7 +90,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(255, 255, 255, 0.7);
+  background: transparent;
   backdrop-filter: blur(10px);
   box-shadow: var(--shadow-light);
   padding: 0.8rem 1rem;
@@ -99,11 +99,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid white;
 }
 
 .navbar-brand img.logo {
   width: 140px;
-  height: auto;
+  height: 100px;
   transition: transform 0.3s ease;
 }
 
@@ -125,7 +126,7 @@ body {
 .nav-link {
   position: relative;
   font-weight: 600;
-  color: var(--primary-color);
+  color: white;
   transition: color 0.3s ease;
   text-decoration: none;
 }
