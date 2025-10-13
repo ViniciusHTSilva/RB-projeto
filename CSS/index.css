@@ -183,6 +183,7 @@ a {
 /* Botão fixo */
 .btn-fixed {
   position: absolute;
+  z-index: 2; /* Garante que o texto fique acima da imagem */
   bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
