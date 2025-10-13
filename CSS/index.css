@@ -118,7 +118,7 @@ a {
   text-align: center;
   color: var(--white);
   opacity: 0;
-  transition: opacity 1.5s ease-in-out;
+  transition: opacity 1s ease-in-out;
   overflow: hidden;
 }
 
@@ -243,40 +243,10 @@ a {
 }
 
 /* =========================
-   Animação automática
+   Hero Carousel - Correção completa
+   4s por imagem + looping perfeito
 ========================= */
 
-@keyframes slideShow {
-  0% {
-    opacity: 1;
-  }
-  30% {
-    opacity: 1;
-  } /* Mantém o slide visível por mais tempo */
-  40% {
-    opacity: 0;
-  } /* Começa a desaparecer suavemente */
-  90% {
-    opacity: 0;
-  } /* Permanece invisível enquanto os outros aparecem */
-  100% {
-    opacity: 1;
-  } /* Volta ao início sem corte */
-}
-
-/* Cada slide tem a mesma duração, mas começa em tempos diferentes */
-.hero-carousel .slide:nth-child(1) {
-  animation: slideShow 9s infinite;
-  animation-delay: 0s;
-}
-.hero-carousel .slide:nth-child(2) {
-  animation: slideShow 9s infinite;
-  animation-delay: 3s;
-}
-.hero-carousel .slide:nth-child(3) {
-  animation: slideShow 9s infinite;
-  animation-delay: 6s;
-}
 
 /* Produtos */
 #produtos {
@@ -566,6 +536,7 @@ footer .border-top {
    Responsividade Global
 ========================= */
 @media (max-width: 992px) {
+    /* ===== Navbar ===== */
   .navbar .container {
     flex-wrap: wrap;
   }
@@ -586,68 +557,68 @@ footer .border-top {
     transition: transform 0.3s ease;
   }
 
-  .hero h1,
-  .hero h2,
-  .hero p {
-    padding: 0 1rem;
+  /* ===== Hero Carousel ===== */
+  .hero-carousel {
+    height: 100vh; /* ocupa toda a altura da tela */
   }
 
   .hero-carousel .slide {
-    background-size: cover;
-    background-position: center top;
+    background-size: cover; /* cobre a tela sem distorcer */
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh; /* garante que ocupe a tela toda */
     opacity: 0;
-    animation: slideShow 18s infinite;
-    animation-timing-function: ease-in-out;
+    transition: opacity 1s ease-in-out;
   }
 
-  /* sincroniza cada slide */
-  .hero-carousel .slide:nth-child(1) {
-    animation-delay: 0s;
+  .hero-carousel .slide.active {
+    opacity: 1;
   }
-  .hero-carousel .slide:nth-child(2) {
-    animation-delay: 6s;
-  }
-  .hero-carousel .slide:nth-child(3) {
-    animation-delay: 12s;
-  }
-}
 
-/* Keyframes contínuos — mantém pelo menos 1 slide visível */
-@keyframes slideShow {
-  0% {
-    opacity: 1;
-  }
-  30% {
-    opacity: 1;
-  } /* visível */
-  35% {
-    opacity: 0;
-  } /* começa a desaparecer suavemente */
-  65% {
-    opacity: 0;
-  } /* invisível enquanto outro slide aparece */
-  70% {
-    opacity: 1;
-  } /* garante que não fique branco no reinício */
-  100% {
-    opacity: 1;
-  }
-}
+  .hero-carousel .slide .container {
+    padding: 1rem;
+    margin: 10;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
 
-.logo-cliente {
-  max-height: 40px;
-  max-width: 100px;
-  object-fit: contain;
-  filter: grayscale(100%);
-  opacity: 0.8;
+  }
+
+  .hero-carousel .slide h1 {
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+
+  .hero-carousel .slide p {
+    font-size: 0.9rem;
+  }
+
+  .btn-fixed {
+  position: absolute; /* posiciona o botão em relação ao container do slide */
+  bottom: 15px;       /* distância da parte inferior do container */
+  left: 50%;          /* centraliza horizontalmente */
+  transform: translateX(-50%); /* centralização perfeita */
+  z-index: 9999;      /* garante que fique acima de tudo */
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 25px;
+
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
   transition: all 0.3s ease;
-}
+  }
 
-.logo-cliente:hover {
-  filter: grayscale(0%);
-  opacity: 1;
-  transform: scale(1.05);
-}
+  /* ===== Cards ===== */
+  .card {
+    margin-top: 20px;
+  }
+
+  .carousel-inner img {
+    height: 40px;
+    object-fit: contain;
+  }
 
 footer {
   width: 100%; /* ocupa toda a largura da tela */
@@ -734,4 +705,5 @@ footer .border-top p {
   font-size: 0.75rem;
   line-height: 1.2;
   margin-top: 10px;
+}
 }
