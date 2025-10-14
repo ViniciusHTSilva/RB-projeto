@@ -186,9 +186,9 @@
   /* =========================
    RESPONSIVO
 ========================= */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   /* Botão flutuante menor e mais próximo da borda */
-  #botao-chat {
+  button #botao-chat {
     width: 50px;
     height: 50px;
     font-size: 24px;
@@ -201,6 +201,10 @@
     height: 55px;
   }
 
+
+    button{
+      left: 77%;
+    }
   /* Janela do chat menor */
   #chat-container {
     width: 300px;
@@ -234,6 +238,7 @@
     max-width: 180px;
     font-size: 13px;
     padding: 15px 12px;
+    margin-bottom: 5px;
   }
 
   .option-btn {

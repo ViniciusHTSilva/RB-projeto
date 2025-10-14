@@ -563,6 +563,7 @@ footer .border-top {
     height: 100vh; /* ocupa toda a altura da tela */
   }
 
+
   .hero-carousel .slide {
     background-size: cover; /* cobre a tela sem distorcer */
     background-position: center center;
@@ -578,7 +579,7 @@ footer .border-top {
 
   .hero-carousel .slide .container {
     padding: 1rem;
-    margin: 10;
+    margin-bottom: 70px;
     max-width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(4px);
