@@ -77,11 +77,15 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
     {
     id: "8",
 
-    nome: "Coberturas",
+    nome: "Claraboias",
 
-    categoria: "Coberturas Policarbonato",
+    categoria: "Claraboias Policarbonato",
 
     imagem: [ 
+      "../images//cobertura/Cobertura-00.jpg",
+      "../images//cobertura/Cobertura-01.jpg",
+      "../images//cobertura/Cobertura-9.jpeg",
+      "../images//cobertura/Cobertura-10.jfif",
       "../images//cobertura/Cobertura-7.jpeg",
       "../images//cobertura/Cobertura-8.jpeg",
       "../images//cobertura/Cobertura-1.jpg",
@@ -90,6 +94,7 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
       "../images//cobertura/Cobertura-4.jpg",
       "../images//cobertura/Cobertura-5.jpg",
       "../images//cobertura/Cobertura-6.jpg",
+
       ],
 
     exp: `
@@ -180,12 +185,16 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
     categoria: "Fachada",
 
     imagem: [
+      "../images/frontlight/frontlight-00.jpg",
       "../images/frontlight/frontlight-1.jpg",
       "../images/frontlight/frontlight-2.jpg",
       "../images/frontlight/frontlight-3.jpg",
       "../images/frontlight/frontlight-4.jpg",
-      "../images/frontlight/frontlight-5.jpg",
-      "../images/frontlight/frontlight-6.jpg"
+      "../images/frontlight/frontlight-5.jpeg",
+      "../images/frontlight/frontlight-6.jpg",
+      "../images/frontlight/frontlight-7.jpg",
+      "../images/frontlight/frontlight-8.jpg",
+      "../images/frontlight/frontlight-9.jpg",
 
 
 
@@ -208,14 +217,18 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
       "../images/Backlight/Backlight.jpeg",
       "../images/Backlight/Backlight-1.jpeg",
       "../images/Backlight/Backlight-2.jpeg",
-      "../images/Backlight/Backlight-3.jpeg",
+      "../images/Backlight/Backlight-3.jpg",
       "../images/Backlight/Backlight-4.jpeg",
       "../images/Backlight/Backlight-5.jpeg",
-      "../images/Backlight/Backlight-6.jpeg",
       "../images/Backlight/Backlight-7.jpeg",
       "../images/Backlight/Backlight-8.jpeg",
       "../images/Backlight/Backlight-9.jpeg",
-      "../images/Backlight/Backlight-10.jpeg"
+      "../images/Backlight/Backlight-10.jpeg",
+      "../images/Backlight/Backlight-11.jpg",
+      "../images/Backlight/Backlight-12.jpg",
+      "../images/Backlight/Backlight-13.jpg",
+      "../images/Backlight/Backlight-14.jpeg",
+      "../images/Backlight/Backlight-15.jpeg"
 
 
     ],
@@ -236,14 +249,18 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
 
     imagem: [
       "../images/Fachada_ACM/Fachada_ACM.jpg",
-      "../images/Fachada_ACM/Fachada_ACM1.jpeg",
+      "../images/Fachada_ACM/Fachada_ACM1.jpg",
       "../images/Fachada_ACM/Fachada_ACM2.jpeg",
-      "../images/Fachada_ACM/Fachada_ACM3.jpg",
-      "../images/Fachada_ACM/Fachada_ACM4.jpg",
+      "../images/Fachada_ACM/Fachada_ACM3.jpeg",
+      "../images/Fachada_ACM/Fachada_ACM4.jfif",
       "../images/Fachada_ACM/Fachada_ACM5.jpg",
       "../images/Fachada_ACM/Fachada_ACM6.jpg",
       "../images/Fachada_ACM/Fachada_ACM7.jpg",
       "../images/Fachada_ACM/Fachada_ACM8.jpg",
+      "../images/Fachada_ACM/Fachada_ACM9.jpg",
+      "../images/Fachada_ACM/Fachada_ACM10.jpg",
+      "../images/Fachada_ACM/Fachada_ACM11.jpg",
+      "../images/Fachada_ACM/Fachada_ACM12.jpeg",
   
 
     ],
@@ -271,6 +288,11 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
       "../images/Totem/Totem-3.jpg",
       "../images/Totem/Totem-4.jpg",
       "../images/Totem/Totem-5.jpg",
+      "../images/Totem/Totem-6.jpg",
+      "../images/Totem/Totem-7.jpeg",
+      "../images/Totem/Totem-8.jpg",
+      "../images/Totem/Totem-9.jpg",
+      "../images/Totem/Totem-10.jpg",
 
 
   
@@ -322,13 +344,18 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
 
     imagem: [
 
-      "../images/LetraAcrilico/acrilico-1.jpg",
+      "../images/LetraAcrilico/acrilico-1.png",
       "../images/LetraAcrilico/acrilico-2.jpg",
       "../images/LetraAcrilico/acrilico-3.jpg",
       "../images/LetraAcrilico/acrilico-5.jpg",
       "../images/LetraAcrilico/acrilico-6.jpg",
       "../images/LetraAcrilico/acrilico-7.jpg",
-      "../images/LetraAcrilico/acrilico-8.jpg"
+      "../images/LetraAcrilico/acrilico-8.jpg",
+      "../images/LetraAcrilico/acrilico-9.jpg",
+      "../images/LetraAcrilico/acrilico-11.jpg",
+      "../images/LetraAcrilico/acrilico-12.jpg",
+      "../images/LetraAcrilico/acrilico-13.jpg",
+      "../images/LetraAcrilico/acrilico-14.jpg"
 
 
     ],
@@ -374,9 +401,12 @@ Com transparência impecável e alta resistência, o acrílico oferece acabament
       "../images/iluminada/iluminada-3.jpg",
       "../images/iluminada/iluminada-4.jpg",
       "../images/iluminada/iluminada-5.jpg",
-      "../images/iluminada/iluminada-6.jpg",
+      "../images/iluminada/iluminada-6.jpeg",
       "../images/iluminada/iluminada-7.jpg",
-      "../images/iluminada/iluminada-8.jpg"
+      "../images/iluminada/iluminada-8.jpg",
+      "../images/iluminada/iluminada-9.jpg",
+      "../images/iluminada/iluminada-10.jpg"
+      
 
 
     ],

@@ -231,6 +231,7 @@ footer {
   border-radius: 20px 0 0 20px; 
   box-shadow: 0 10px 30px rgba(0,0,0,0.2); 
   background: #000; 
+  
 }
 
 .carousel-track { 
@@ -244,7 +245,8 @@ footer {
   width: 800px;   /* mesmo tamanho do .carousel */
   height: 600px;  /* mesmo tamanho do .carousel */
   flex-shrink: 0; /* impede encolhimento */
-  object-fit: cover;
+  object-fit: fill;
+
 }
 
 .carousel-button { 
