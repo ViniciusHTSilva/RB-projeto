@@ -6,7 +6,7 @@ from datetime import datetime
 app = Flask(__name__)
 CORS(app)
 
-DB_FILE = "database.db"
+DB_FILE = "js/database.db"
 
 # ---- Função para executar comandos no SQLite ----
 def execute_sql(query, params=()):
