@@ -1,18 +1,22 @@
 // /js/produtos.js
+function carregarImagens(caminho, total, extensao = "jpeg") {
+  const imgs = [];
+  for (let i = 1; i <= total; i++) {
+    imgs.push(`${caminho}${i}.${extensao}`);
+  }
+  return imgs;
+}
+
+
+
+
 const produtos = [
 
 
   {
     id: "2",
     nome:  "Letra Acrílica",
-    imagem: [
-      "../images/Letra/Letras-1.jpeg",
-      "../images/Letra/Letras-2.jpeg",
-      "../images/Letra/Letras-3.jpeg",
-      "../images/Letra/Letras-4.jpeg",
-      "../images/Letra/Letras-5.jpeg",
-      "../images/Letra/Letras-6.jpeg",
-    ],
+    imagem: carregarImagens("../images/Letra/Letras-", 7),
 
     categoria: "Acrílico",
 
